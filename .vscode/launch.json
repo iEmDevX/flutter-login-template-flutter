@@ -1,0 +1,26 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current Device",
+      "request": "launch",
+      "type": "dart",
+      // "flutterMode": "profile"
+    },
+    {
+      "name": "emulator tablet",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554"
+    },
+    {
+      "name": "emulator small phone",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5556"
+    },
+  ]
+}
